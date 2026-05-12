@@ -170,3 +170,8 @@ Place the `mpmpattern.conf` file at `/etc/nginx/mpmpattern.conf` on the Nginx se
 | `host not found in upstream` | Backend hostname DNS resolution failed | Check the backend hostname spelling; the script validates DNS before generating |
 | `unknown "cache_common"` | Cache zone not defined | Add `proxy_cache_path` to `nginx.conf` (see [Cache Zone Setup](#nginx-cache-zone-setup)) |
 | `open() "/etc/nginx/mpmpattern.conf" failed` | Missing mpmpattern file | Place the file or re-generate without `-IncludeMpmPattern` |
+
+
+Copyright © 2026 Larry Lai
+
+Disclaimer: This project is an independent work and is not affiliated with, endorsed by, or associated with any vendor, including CyCraft Technology Corporation. All product names, trademarks, and registered trademarks are the property of their respective owners.
